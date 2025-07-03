@@ -1,0 +1,55 @@
+.header{
+    border: 2px red;
+    display: inline-block;
+    padding: 10px 50px;
+    border-radius: 15px;
+    background-color: rgb(226, 29, 29);
+    font-weight: bold;
+    text-align: center;
+    margin: 20px auto;
+}
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-left: 0;
+    padding: 20px;
+}
+.container{
+    margin: 100px 0 0 200px;
+    width: 75%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.container img{
+    width: 10%;
+    height: 75%;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 2px black;
+    transition: all ease-in-out 0.5s;
+}
+.container img:hover{
+    width: 25%;
+}
+img {
+    width: 300px;
+    border-radius: 50px;
+    float: right;
+    
+    }
+.username {
+    font-weight: bold;  
+    }
+em {
+    color: red;
+    font-style: normal;
+    }
+.about {
+    font-family: Arial, sans-serif;
+    text-align: left;
+    margin-left: 0;
+    padding: 20px;
+}
